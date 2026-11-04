@@ -91,7 +91,7 @@ def sensitivity():
     ax.set_xlabel("Welfare cost, share of consumption")
     ax.legend(loc="lower left")
     save(fig, "sensitivity.png", "The gap is small next to the choice of volume measure",
-         "Same-year estimates under other reasonable choices. Ethereum is lower in all but one row; in two the coins are within 0.01 points.",
+         "Same-year estimates under other choices. Ethereum is lower in all but one row.",
          "Each row changes one choice from the baseline. How much on-chain value counts as a payment moves both coins more than the model's other settings do. " + SOURCE)
 
 
